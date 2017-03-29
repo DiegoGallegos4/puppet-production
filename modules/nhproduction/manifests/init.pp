@@ -44,6 +44,8 @@
 #
 
 class nhproduction($app, ) {
+  $dirname = lookup('dirname')
+  $servername = lookup("servername")
   class {'nginx': }
   notify{ 'vars' : message => "${server_name} ${dir_name}"}
   file { '/var/www':

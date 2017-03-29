@@ -1,7 +1,5 @@
 # CRM
 node "nhvla09.nuevoshorizontes.com"{
-  $dirname = 'crm.panoramalife.com'
-  $servername= 'crm.panoramalife.com'
   
   class {'linux': }
   class {'nhproduction': 
