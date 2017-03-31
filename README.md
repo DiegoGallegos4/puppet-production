@@ -1,4 +1,5 @@
-##Hiera Config
+#Hiera Config
+```
 ---
 version: 5
 hierarchy:
@@ -12,4 +13,4 @@ hierarchy:
 defaults:
     datadir: /etc/puppetlabs/code/environments/production/hieradata
     data_hash: yaml_data
-
+```

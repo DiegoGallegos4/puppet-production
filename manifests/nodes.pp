@@ -10,8 +10,6 @@ node "nhvla09.nuevoshorizontes.com"{
 
 # Frontdesk
 node "nhvla10.nuevoshorizontes.com"{
-  $dirname = 'frontdesk.panoramalife.com'
-  $servername = 'frontdesk.panoramalife.com' 
   class {'nhproduction':
     app => 'frontdesk',
   }
@@ -19,7 +17,9 @@ node "nhvla10.nuevoshorizontes.com"{
 
 # ERP
 node "nhvla11.nuevoshorizontes.com"{
-
+  class {'nhproduction':
+    app => 'erp',
+  }
 }
 
 class linux{

@@ -1,3 +1,6 @@
 ---
 servername: "crm.panoramalife.com"
 dirname: "crm.panoramalife.com"
+certname: "crm.panoramalife.com"
+certdir: "/etc/nginx/ssl"
+github_token: "10e85a0fc08be311518c654c6cac2de922d2bd07"
