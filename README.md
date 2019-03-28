@@ -1,4 +1,4 @@
-#Hiera Config
+# Hiera Config
 ```
 ---
 version: 5
